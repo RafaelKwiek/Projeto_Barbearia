@@ -1,0 +1,64 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;}
+
+    img {max-width: 100%;}
+    ul {list-style: none;}
+    a {text-decoration: none;}
+    h2 {font-size: 1.5em; color: #333,}
+    p {font-size: 1em; color: #777,}
+
+/* Cabeçalho */
+
+.cabeçalho {
+    width: 100%;
+    float: left;
+    padding: 60px 10%; background-color: #545cf5;}
+
+
+#meuLogo {
+    width: 60px;
+  
+}
+
+.cabeçalho form {
+    width: 300%;
+    float: right;
+}
+
+.cabeçalho input [type= "text"] {
+    width: 85%;
+    float: left;
+    padding: 100px 100px;
+}
+
+.cabeçalho button {
+    width: 50px;
+    float: right;
+    padding: 20px 50px; background-color: cadetblue; color: #fff; cursor: pointer;
+}
+
+/* MEnu */
+
+.menu {
+    width: 100px;
+    float: left;
+    background-color: rgb(202, 199, 199);
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: rgb(133, 131, 131);
+    margin-right: 25px;
+}
